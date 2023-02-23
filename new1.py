@@ -1,2 +1,3 @@
 msg = "Hello World"
-print(msg)
+msg2 = "I'm on the second machine"
+print(msg +" "+ msg2)
