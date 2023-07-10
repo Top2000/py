@@ -7,3 +7,6 @@ a = 5
 b = 6
 print(a+b)
 print(5+7)
+c = 7
+d =((a+b)*c)
+print(d)
