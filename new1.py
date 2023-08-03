@@ -12,3 +12,8 @@ import datetime
 now = datetime.datetime.now()
 now.ctime()
 print(now)
+conv_now = (str(now))
+filepath = "new.txt"
+fo = open(filepath,"w")
+fo.write(conv_now)
+fo.close()
