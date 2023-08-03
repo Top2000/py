@@ -7,3 +7,7 @@ a = 5
 b = 6
 print(a+b)
 print(5+7)
+import datetime
+now = datetime.datetime.now()
+now.ctime()
+print(now)
