@@ -14,6 +14,7 @@ now.ctime()
 print(now)
 conv_now = (str(now))
 filepath = "new.txt"
-fo = open(filepath,"w")
+fo = open(filepath,'a')
 fo.write(conv_now)
+fo.write('\n')
 fo.close()
